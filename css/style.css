@@ -8,14 +8,17 @@ html,
 body {
   height: 100%;
   overflow: hidden;
-  background-color: #26036d;
 }
 body {
   font-family: Inter, system-ui, sans-serif;
-  color: #fff;
+  background-image: url("../image/landingpage_header_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
+  /* background-color: #26036d; */
 }
-.body::before {
+body::before {
   content: "";
   position: absolute;
   inset: 0;

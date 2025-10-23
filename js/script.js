@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // === MOVEMENT SETTINGS ===
   const FLOAT_STRENGTH = 10; // idle float for all
   const PARALLAX_STRENGTH = 50; // strong for other elements
-  const MAIN_FLOAT_STRENGTH = 3; // softer float for .main_container
-  const MAIN_PARALLAX_STRENGTH = 10; // minimal parallax for .main_container
+  const MAIN_FLOAT_STRENGTH = 5; // softer float for .main_container
+  const MAIN_PARALLAX_STRENGTH = 40; // minimal parallax for .main_container
   const SMOOTHNESS = 0.07;
   // ==========================
 
