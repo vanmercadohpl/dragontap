@@ -11,12 +11,8 @@ body {
 }
 body {
   font-family: Inter, system-ui, sans-serif;
-  background-image: url("../image/landingpage_header_background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   overflow-x: hidden;
-  /* background-color: #26036d; */
+  background-color: #26036d;
 }
 body::before {
   content: "";
@@ -64,6 +60,8 @@ body::before {
   flex-direction: column;
   justify-content: space-between;
   z-index: 0; 
+  top: -2vh; 
+  left: -2vw;
 }
 
 /* ---------- Navbar ---------- */
