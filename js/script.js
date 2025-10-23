@@ -25,13 +25,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // === MOVEMENT SETTINGS ===
   const FLOAT_STRENGTH = 10; // idle float for all
   const PARALLAX_STRENGTH = 50; // strong for other elements
-  const MAIN_FLOAT_STRENGTH = 5; // softer float for .main_container
-  const MAIN_PARALLAX_STRENGTH = 40; // minimal parallax for .main_container
+  const MAIN_FLOAT_STRENGTH = 5; // softer float for main background
+  const MAIN_PARALLAX_STRENGTH = 40; // subtle parallax for main background
   const SMOOTHNESS = 0.07;
   // ==========================
 
   const photos = document.querySelectorAll(
-    ".main_container, .slider_photoOne, .slider_photoTwo, .slider_photoThree, .slider_photoFour, .slider_photoFive, .slider_photoSix, .slider_photoSeven, .slider_photoEight, .slider_photoSmokeOne, .slider_photoSmokeTwo, .slider_photoSmokeThree, .slider_photoSmokeFour, .slider_photoSmokeFive"
+    ".slider_mainBackground, .slider_photoOne, .slider_photoTwo, .slider_photoThree, .slider_photoFour, .slider_photoFive, .slider_photoSix, .slider_photoSeven, .slider_photoEight, .slider_photoSmokeOne, .slider_photoSmokeTwo, .slider_photoSmokeThree, .slider_photoSmokeFour, .slider_photoSmokeFive"
   );
 
   // Assign random float pattern and depth
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       depth,
       seedX: Math.random() * 1000,
       seedY: Math.random() * 1000,
-      isMain: el.classList.contains("main_container"),
+      isMain: el.classList.contains("slider_mainBackground"),
     };
   });
 
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const finalX = floatX + parallaxX;
       const finalY = floatY + parallaxY;
 
-      p.el.style.transform = `translate(${finalX}px, ${finalY}px)`;
+      p.el.style.transform = `translate3d(${finalX}px, ${finalY}px, 0)`;
     });
 
     requestAnimationFrame(animate);

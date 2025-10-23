@@ -52,16 +52,11 @@ body::before {
   width: 100%;
   max-height: 100vh;
   height: 100vh;
-  background-image: url("../image/landingpage_header_background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 0; 
-  top: -2vh; 
-  left: -2vw;
+
 }
 
 /* ---------- Navbar ---------- */
@@ -374,14 +369,23 @@ body::before {
 .slider_photoSmokeTwo, 
 .slider_photoSmokeThree, 
 .slider_photoSmokeFour, 
-.slider_photoSmokeFive {
+.slider_photoSmokeFive, .slider_mainBackground {
   position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: 1; /* under content */
+  z-index: 1;
 }
 
+.slider_mainBackground {
+  background-image: url("../image/landingpage_header_background.png");
+  width: 105vw;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  top: -5vh; 
+  left: -1vw;
+}
 .slider_photoOne {
   background-image: url("../image/landingpage_header_flyingicons_img01.png");
   width: 16vw;
