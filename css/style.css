@@ -484,7 +484,7 @@ body::before {
   width: 125vw;
   height: 118vh;
   bottom: -67vmin;
-  left: -10vmin;
+  left: -23vmin;
   
 }
 
@@ -494,6 +494,44 @@ body::before {
 }
 @media (max-width: 1280px) {
   .menuSocials { gap: 0px; }
+}
+@media (min-width: 1025px) {
+    .slider_photoSmokeOne {
+  width: 108vw;
+  height: 60vh;
+  top: 47vmin;
+  right: -45vmin;
+  
+}
+.slider_photoSmokeTwo {
+  width: 116vw;
+  height: 63vh;
+  top: 42vmin;
+  left: -35vmin;
+  
+}
+.slider_photoSmokeThree {
+  width: 81vw;
+  height: 139vh;
+  top: -28vmin;
+  left: -59vmin;
+  
+}
+.slider_photoSmokeFour {
+  width: 70vw;
+  height: 118vh;
+  top: -23vmin;
+  right: -65vmin;
+  
+}
+.slider_photoSmokeFive {
+  width: 125vw;
+  height: 118vh;
+  bottom: -65vmin;
+  left: -22vmin;
+  
+}
+
 }
 @media (max-width: 1024px) {
   .navbarListLeft { gap: 3rem; }
@@ -574,7 +612,7 @@ body::before {
   width: 108vw;
   height: 60vh;
   top: 52%;
-  right: -30%;
+  right: -25%;
   
 }
 .slider_photoSmokeTwo {
