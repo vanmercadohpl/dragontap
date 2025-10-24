@@ -451,40 +451,40 @@ body::before {
   background-image: url("../image/landingpage_header_flyingicons_smoke01.png");
   width: 50vw;
   height: 70vh;
-  top: 52%;
-  right: 7%;
+  top: 52vmin;
+  right: 7vmin;
   
 }
 .slider_photoSmokeTwo {
   background-image: url("../image/landingpage_header_flyingicons_smoke02.png");
   width: 50vw;
   height: 65vh;
-  top: 46%;
-  left: 6%;
+  top: 33vmin;
+  left: 7vmin;
   
 }
 .slider_photoSmokeThree {
   background-image: url("../image/landingpage_header_flyingicons_smoke03.png");
   width: 55vw;
   height: 118vh;
-  top: -14%;
-  left: -22%;
+  top: -14vmin;
+  left: -43vmin;
   
 }
 .slider_photoSmokeFour {
   background-image: url("../image/landingpage_header_flyingicons_smoke04.png");
   width: 55vw;
   height: 118vh;
-  top: -14%;
-  right: -31%;
+  top: -14vmin;
+  right: -45vmin;
   
 }
 .slider_photoSmokeFive {
   background-image: url("../image/landingpage_header_flyingicons_smoke05.png");
   width: 125vw;
   height: 118vh;
-  bottom: -67%;
-  left: -10%;
+  bottom: -67vmin;
+  left: -10vmin;
   
 }
 
@@ -513,36 +513,36 @@ body::before {
     .slider_photoSmokeOne {
   width: 108vw;
   height: 60vh;
-  top: 52%;
-  right: -30%;
+  top: 52vmin;
+  right: -30vmin;
   
 }
 .slider_photoSmokeTwo {
   width: 116vw;
   height: 63vh;
-  top: 46%;
-  left: -35%;
+  top: 42vmin;
+  left: -35vmin;
   
 }
 .slider_photoSmokeThree {
   width: 81vw;
   height: 139vh;
-  top: -28%;
-  left: -44%;
+  top: -28vmin;
+  left: -44vmin;
   
 }
 .slider_photoSmokeFour {
   width: 70vw;
   height: 118vh;
-  top: -14%;
-  right: -44%;
+  top: -14vmin;
+  right: -44vmin;
   
 }
 .slider_photoSmokeFive {
   width: 125vw;
   height: 118vh;
-  bottom: -55%;
-  left: -10%;
+  bottom: -65vmin;
+  left: -10vmin;
   
 }
 }
@@ -580,8 +580,8 @@ body::before {
 .slider_photoSmokeTwo {
   width: 116vw;
   height: 63vh;
-  top: 46%;
-  left: -35%;
+  top: 35%;
+  left: -28%;
   
 }
 .slider_photoSmokeThree {
