@@ -2,144 +2,135 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dragon Tap - Responsive Navbar + Sidebar</title>
-  <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dragon Tap - Responsive Navbar + Sidebar</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
-  <main class="main_container ">
-    <nav class="navbar">
-      <ul class="navbarList">
-        <div class="navbarListLeft">
-          <div class="navLogoContainer">
-            <img class="navLogoContainerImg" src="./image/landingpage_logo.png" alt="logo" />
-          </div>
-          <!-- <li class="navbarListItem">GAMES</li>
-          <li class="navbarListItem">NEWS</li>
-          <li class="navbarListItem">CONTACT US</li> -->
-        </div>
+    <main class="main_container">
+        <nav class="navbar">
+            <ul class="navbarList">
+                <div class="navbarListLeft">
+                    <div class="navLogoContainer">
+                        <img class="navLogoContainerImg" src="./image/landingpage_logo.png" alt="logo" />
+                    </div>
+                    <!-- <li class="navbarListItem">GAMES</li>
+                    <li class="navbarListItem">NEWS</li>
+                    <li class="navbarListItem">CONTACT US</li> -->
+                </div>
 
-        <div class="navbarListRight">
-          <li class="navbarListItem">
-            <div class="hamburgerMenu">
-              <img class="hamburgerMenuImg" src="./image/landingpage_button_menu.png" alt="menu" />
+                <div class="navbarListRight">
+                    <li class="navbarListItem">
+                        <div class="hamburgerMenu">
+                            <img class="hamburgerMenuImg" src="./image/landingpage_button_menu.png" alt="menu" />
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+
+        <aside class="sidebar" id="sidebar" aria-hidden="true">
+            <button class="closeButton" id="closeSidebar" aria-label="Close menu">
+                <img src="./image/landingpage_button_close.png" alt="close" />
+            </button>
+
+            <ul class="sidebarList">
+                <li><a href="#">SIGN UP</a></li>
+                <!-- <li><a href="#">GAMES</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT US</a></li> -->
+            </ul>
+
+            <div class="sidebarSocials">
+                <div class="headingIconList headingIconListMenu iconWhite">
+                    <a href="https://x.com/DragonSanctum" target=”_blank”>
+                        <img class="headingIconImg" src="./image/landingpage_button_links_x_white.png" alt="X">
+                    </a>
+                </div>
+                <div class="headingIconList headingIconListMenu iconWhite">
+                    <a href="http://instagram.com/dragonanctuary" target=”_blank”>
+
+                        <img class="headingIconImg" src="./image/landingpage_button_links_ig_white.png" alt="Instagram">
+                    </a>
+                </div>
+                <div class="headingIconList headingIconListMenu iconWhite">
+                    <a href="http://discord.gg/dragonsanctuary" target=”_blank”>
+
+                        <img class="headingIconImg" src="./image/landingpage_button_links_discord_white.png"
+                            alt="Discord">
+                    </a>
+                </div>
+                <div class="headingIconList headingIconListMenu iconWhite">
+                    <a href="https://jup.ag/tokens/LdC8eFrB6idSmbpZCkSi8DFateB8vjhv2H2r8Epindi" target=”_blank”>
+
+                        <img class="headingIconImg" src="./image/landingpage_button_links_jupiter_white.png"
+                            alt="Jupiter">
+                    </a>
+                </div>
             </div>
-          </li>
-        </div>
-      </ul>
-    </nav>
+            <p class="sidebarFooter">2025 © Dragon Tap All rights reserved.</p>
+        </aside>
+        <div class="overlay" id="overlay" aria-hidden="true"></div>
+        <section class="content_container">
+            <div class="sashiImgContainer">
+                <img class="sashiImg" src="./image/landingpage_header_sashi.png" alt="content1" />
+            </div>
+            <div class="joinBadgeContainer">
+                <div class="content_img_container">
+                    <button class="joinUsBtn pulse-button">
+                        <a href="https://dragonsanctuary.beehiiv.com/subscribe" target=”_blank”>
 
-    <aside class="sidebar" id="sidebar" aria-hidden="true">
-      <button class="closeButton" id="closeSidebar" aria-label="Close menu">
-        <img src="./image/landingpage_button_close.png" alt="close" />
-      </button>
+                            <img class="joinUsBtnImg" src="./image/landingpage_button_joinus_w-glow.png"
+                                alt="join us button" />
+                        </a>
+                    </button>
+                </div>
 
-      <ul class="sidebarList">
-        <li><a href="#">SIGN UP</a></li>
-        <!-- <li><a href="#">GAMES</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">CONTACT US</a></li> -->
-      </ul>
+                <div class="badgeContainer">
+                    <div class="badgeItem">
+                        <img class="badgeImg" src="./image/landingpage_badge_solana.png" alt="content1" />
+                    </div>
+                    <div class="badgeItem">
+                        <img class="badgeImg" src="./image/landingpage_badge_google.png" alt="content1" />
+                    </div>
+                </div>
+                <div class="sidebarSocials menuSocials">
+                    <div class="headingIconList headingIconListMenu iconWhite">
+                        <a href="https://x.com/DragonSanctum" target=”_blank”>
+                            <img class="headingIconImg" src="./image/landingpage_button_links_x_white.png" alt="X">
+                        </a>
+                    </div>
+                    <div class="headingIconList headingIconListMenu iconWhite">
+                        <a href="http://instagram.com/dragonanctuary" target=”_blank”>
 
-      <div class="sidebarSocials">
-        <div class="headingIconList headingIconListMenu iconWhite">
-          <a href="https://x.com/DragonSanctum" target=”_blank”>
-            <img class="headingIconImg" src="./image/landingpage_button_links_x_white.png" alt="X">
-          </a>
-        </div>
-        <div class="headingIconList headingIconListMenu iconWhite">
-          <a href="http://instagram.com/dragonanctuary" target=”_blank”>
+                            <img class="headingIconImg" src="./image/landingpage_button_links_ig_white.png"
+                                alt="Instagram">
+                        </a>
+                    </div>
+                    <div class="headingIconList headingIconListMenu iconWhite">
+                        <a href="http://discord.gg/dragonsanctuary" target=”_blank”>
 
-            <img class="headingIconImg" src="./image/landingpage_button_links_ig_white.png" alt="Instagram">
-          </a>
-        </div>
-        <div class="headingIconList headingIconListMenu iconWhite">
-          <a href="http://discord.gg/dragonsanctuary" target=”_blank”>
+                            <img class="headingIconImg" src="./image/landingpage_button_links_discord_white.png"
+                                alt="Discord">
+                        </a>
+                    </div>
+                    <div class="headingIconList headingIconListMenu iconWhite">
+                        <a href="https://jup.ag/tokens/LdC8eFrB6idSmbpZCkSi8DFateB8vjhv2H2r8Epindi" target=”_blank”>
 
-            <img class="headingIconImg" src="./image/landingpage_button_links_discord_white.png" alt="Discord">
-          </a>
-        </div>
-        <div class="headingIconList headingIconListMenu iconWhite">
-          <a href="https://jup.ag/tokens/LdC8eFrB6idSmbpZCkSi8DFateB8vjhv2H2r8Epindi" target=”_blank”>
+                            <img class="headingIconImg" src="./image/landingpage_button_links_jupiter_white.png"
+                                alt="Jupiter">
+                        </a>
+                    </div>
+                </div>
 
-            <img class="headingIconImg" src="./image/landingpage_button_links_jupiter_white.png" alt="Jupiter">
-          </a>
-        </div>
-      </div>
+            </div>
 
-      <p class="sidebarFooter">2025 © Dragon Tap All rights reserved.</p>
-    </aside>
+        </section>
+    </main>
 
-    <section class="slider_images">
-      <div class="slider_mainBackground"></div>
-      <div class="slider_photoSmokeFour"></div>
-      <div class="slider_photoSmokeThree"></div>
-      <div class="slider_photoSmokeOne"></div>
-      <div class="slider_photoSmokeTwo"></div>
-      <div class="slider_photoSmokeFive"></div>
-      <div class="slider_photoOne"></div>
-      <div class="slider_photoTwo"></div>
-      <div class="slider_photoThree"></div>
-      <div class="slider_photoFour"></div>
-      <div class="slider_photoFive"></div>
-      <div class="slider_photoSix"></div>
-      <div class="slider_photoSeven"></div>
-      <div class="slider_photoEight"></div>
-    </section>
-
-    <div class="overlay" id="overlay" aria-hidden="true"></div>
-    <section class="content_container">
-      <div class="sashiImgContainer">
-        <img class="sashiImg" src="./image/landingpage_header_sashi.png" alt="content1" />
-      </div>
-      <div class="joinBadgeContainer">
-        <div class="content_img_container">
-          <button class="joinUsBtn pulse-button">
-            <a href="https://dragonsanctuary.beehiiv.com/subscribe" target="_blank">
-              <img class="joinUsBtnImg" src="./image/landingpage_button_joinus_w-glow.png" alt="join us button" />
-            </a>
-          </button>
-        </div>
-
-        <div class="badgeContainer">
-          <div class="badgeItem">
-            <img class="badgeImg" src="./image/landingpage_badge_solana.png" alt="content1" />
-          </div>
-          <div class="badgeItem">
-            <img class="badgeImg" src="./image/landingpage_badge_google.png" alt="content1" />
-          </div>
-        </div>
-        <div class="sidebarSocials menuSocials">
-          <div class="headingIconList headingIconListMenu iconWhite">
-            <a href="https://x.com/DragonSanctum" target=”_blank”>
-              <img class="headingIconImg" src="./image/landingpage_button_links_x_white.png" alt="X">
-            </a>
-          </div>
-          <div class="headingIconList headingIconListMenu iconWhite">
-            <a href="http://instagram.com/dragonanctuary" target=”_blank”>
-
-              <img class="headingIconImg" src="./image/landingpage_button_links_ig_white.png" alt="Instagram">
-            </a>
-          </div>
-          <div class="headingIconList headingIconListMenu iconWhite">
-            <a href="http://discord.gg/dragonsanctuary" target=”_blank”>
-
-              <img class="headingIconImg" src="./image/landingpage_button_links_discord_white.png" alt="Discord">
-            </a>
-          </div>
-          <div class="headingIconList headingIconListMenu iconWhite">
-            <a href="https://jup.ag/tokens/LdC8eFrB6idSmbpZCkSi8DFateB8vjhv2H2r8Epindi" target=”_blank”>
-
-              <img class="headingIconImg" src="./image/landingpage_button_links_jupiter_white.png" alt="Jupiter">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

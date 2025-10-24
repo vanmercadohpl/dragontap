@@ -1,37 +1,38 @@
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
-const hamburger = document.querySelector(".hamburgerMenuImg");
-const closeBtn = document.getElementById("closeSidebar");
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+const hamburger = document.querySelector('.hamburgerMenuImg');
+const closeBtn = document.getElementById('closeSidebar');
 
-hamburger.addEventListener("click", () => {
-  sidebar.classList.add("active");
-  overlay.classList.add("active");
-  hamburger.classList.add("hide");
+hamburger.addEventListener('click', () => {
+  sidebar.classList.add('active');
+  overlay.classList.add('active');
+  hamburger.classList.add('hide');
 });
 
-closeBtn.addEventListener("click", () => {
-  sidebar.classList.remove("active");
-  overlay.classList.remove("active");
-  hamburger.classList.remove("hide");
+closeBtn.addEventListener('click', () => {
+  sidebar.classList.remove('active');
+  overlay.classList.remove('active');
+  hamburger.classList.remove('hide');
 });
 
-overlay.addEventListener("click", () => {
-  sidebar.classList.remove("active");
-  overlay.classList.remove("active");
-  hamburger.classList.remove("hide");
+overlay.addEventListener('click', () => {
+  sidebar.classList.remove('active');
+  overlay.classList.remove('active');
+  hamburger.classList.remove('hide');
 });
+
 
 document.addEventListener("DOMContentLoaded", () => {
   // === MOVEMENT SETTINGS ===
   const FLOAT_STRENGTH = 10; // idle float for all
   const PARALLAX_STRENGTH = 50; // strong for other elements
   const MAIN_FLOAT_STRENGTH = 5; // softer float for main background
-  const MAIN_PARALLAX_STRENGTH = 50; // subtle parallax for main background
+  const MAIN_PARALLAX_STRENGTH = 40; // subtle parallax for main background
   const SMOOTHNESS = 0.07;
   // ==========================
 
   const photos = document.querySelectorAll(
-    ".slider_mainBackground"
+    ".slider_mainBackground, .slider_photoOne, .slider_photoTwo, .slider_photoThree, .slider_photoFour, .slider_photoFive, .slider_photoSix, .slider_photoSeven, .slider_photoEight, .slider_photoSmokeOne, .slider_photoSmokeTwo, .slider_photoSmokeThree, .slider_photoSmokeFour, .slider_photoSmokeFive"
   );
 
   // Assign random float pattern and depth
