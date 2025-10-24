@@ -384,12 +384,12 @@ body::before {
 
 .slider_mainBackground {
   background-image: url("../image/landingpage_header_background.png");
-  width: 105vw;
-  height: 100vh;
+  width: 112vw;
+  height: 105vh;
   background-size: cover;
   position: relative;
-  top: -5vh; 
-  left: -1vw;
+  top: -8vh; 
+  left: -7vw;
 }
 .slider_photoOne {
   background-image: url("../image/landingpage_header_flyingicons_img01.png");
